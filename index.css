@@ -1,0 +1,462 @@
+* {
+  box-sizing: border-box;
+  color: white;
+  padding: 5px;
+}
+@media only screen and (max-width: 768px) {
+  .header-full {
+    background-color: #1e1e1e;
+  }
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .link-and-cv {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .nave-bar {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .nave-bar a {
+    text-align: center;
+    text-decoration: none;
+    margin: 5px;
+    padding: 15px;
+    background-color: rgb(62, 108, 215);
+    border-radius: 10px;
+    font-size: larger;
+    color: #000000;
+  }
+  .download-cv {
+    background-color: #ab2edc;
+    color: #000000;
+    font-size: larger;
+  }
+  .about-me {
+    display: flex;
+    box-align: left;
+    justify-content: space-around;
+  }
+  .about-left-part {
+    width: 40%;
+  }
+  .skills {
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+  }
+  .port-hire {
+    display: flex;
+    height: 9vh;
+    width: 40vh;
+    background-color: #c3adad;
+    border-radius: 60px;
+    align-items: center;
+    gap: 25px;
+  }
+  .butt {
+    margin-top: 25px;
+    background-color: #c3adad;
+    border-radius: 50px;
+  }
+  .port-butt {
+    background-color: #5f4343;
+    margin-bottom: 25px;
+    height: 7vh;
+    margin: 10px;
+    background-color: #c3adad;
+    color: #c3adad;
+  }
+  .hire-me {
+    color: #000000;
+  }
+  .social-icon {
+    gap: 100px;
+  }
+  .portfolio {
+    position: relative;
+    margin-right: 80px;
+  }
+  .round {
+    margin-top: 165px;
+    margin-left: 24px;
+    margin-right: 300px;
+    width: 350px;
+    height: 350px;
+    border: 3px solid rgb(206, 206, 201);
+    border-radius: 50%;
+  }
+  .round-img {
+    position: absolute;
+    top: 40px;
+    margin-left: 10px;
+  }
+  .round-img img {
+    margin-top: 25px;
+    margin-bottom: 100px;
+    height: 453px;
+    width: 367px;
+    border-radius: 45%;
+  }
+  .ab-des {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1e1e1e;
+  }
+  .my-ex {
+    background-color: #714f4f;
+    display: flex;
+    width: 100%;
+  }
+  .my-experience {
+    width: 500px;
+  }
+.sec-awards {
+  text-align: center;
+  background-color: #1e1e1e;
+}
+.product-design {
+  text-align: left;
+  padding: 15px;
+  gap: 20px;
+  background-color: black;
+}
+.app-design {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: black;
+  }
+
+.total-compit {
+  text-align: left;
+  padding: 15px;
+  gap: 20px;
+  background-color: black;
+}
+.ui-ux-design {
+  display: flex;
+  justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background-color: black;
+}
+/* portfolio start here */
+
+.my-portfolio {
+  background-color: #1e1e1e;
+  text-align: center;
+}
+.designs {
+  justify-content: space-between;
+  padding: 10px;
+  margin: 20px;
+}
+.web-butt {
+  background-color: yellow;
+}
+.black-b {
+  background-color: black;
+  padding: 15px;
+}
+.case-study {
+  display: flex;
+  justify-content: space-between;
+}
+.bally-pic {
+  height: 200px;
+  width: 300px;
+}
+.ux-case-info {
+  text-align: left;
+}
+.contact-me {
+  padding: 40px;
+  background-color: #1e1e1e;
+}
+
+.contact {
+  text-align: center;
+}
+.contact-box {
+  background-color: #34261b;
+  padding: 15px;
+}
+.name-in-box {
+  width: 280px;
+}
+.name-email {
+  display: flex;
+  justify-content: space-between;
+}
+.submit-now {
+  padding: 5px;
+  text-align: center;
+  background-color: #fd6f00;
+  height: 30px;
+  width: 120px;
+}
+.footer {
+  background-color: black;
+  text-align: center;
+  padding: 40px;
+}
+.logo h2 {
+  color: #fd6f00;
+  font-size: xx-large;
+}
+.option-menu {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+}
+.foot {
+  text-align: center;
+  background-color: #1e1e1e;
+}
+}
+/* responsive close here */
+
+/* laptop visual start here */
+
+.container {
+  background-color: #1e1e1e;
+}
+.header-full {
+  background-color: #1e1e1e;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.link-and-cv {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  margin: 10px;
+}
+.nave-bar {
+  margin-top: 20px;
+}
+.nave-bar a {
+  text-align: center;
+  text-decoration: none;
+  margin: 15px;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: larger;
+  color: #ffffff;
+}
+.download-cv {
+  background-color: #fd6f00;
+  margin-top: 20px;
+  font-size: larger;
+  height: 7vh;
+  width: 100%;
+}
+.about-me {
+  display: flex;
+  box-align: left;
+  justify-content: space-around;
+}
+.about-left-part {
+  width: 40%;
+}
+.skills {
+  display: flex;
+  flex-direction: row;
+  width: 400px;
+}
+.port-hire {
+  display: flex;
+  height: 9vh;
+  width: 45vh;
+  background-color: #c3adad;
+  border-radius: 60px;
+  align-items: center;
+  gap: 25px;
+}
+.butt {
+  margin-top: 25px;
+  background-color: #c3adad;
+  border-radius: 50px;
+}
+.port-butt {
+  background-color: #5f4343;
+  margin-bottom: 25px;
+  height: 7vh;
+  margin: 10px;
+  background-color: #c3adad;
+  color: #c3adad;
+}
+.hire-me {
+  color: #f8f8f8;
+  font-size: larger;
+}
+.social-icon {
+  gap: 100px;
+}
+.portfolio {
+  position: relative;
+  margin-right: 80px;
+}
+
+.round {
+  margin-top: 165px;
+  margin-left: 24px;
+  margin-right: 300px;
+  width: 350px;
+  height: 350px;
+  border: 3px solid rgb(206, 206, 201);
+  border-radius: 50%;
+}
+.round-img {
+  position: absolute;
+  top: 40px;
+  margin-left: 10px;
+}
+.round-img img {
+  margin-top: 25px;
+  margin-bottom: 100px;
+  height: 453px;
+  width: 367px;
+  border-radius: 45%;
+}
+.ab-des {
+  display: flex;
+  justify-content: space-around;
+  background-color: #1e1e1e;
+}
+.my-ex {
+  background-color: #714f4f;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  /* margin: 1px; */
+}
+.my-experience {
+  width: 500px;
+}
+.sec-awards {
+  text-align: center;
+  background-color: #1e1e1e;
+}
+.product-design {
+  text-align: left;
+  padding: 15px;
+  gap: 20px;
+  background-color: black;
+}
+.app-design {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: black;
+  }
+.total-compit {
+  text-align: left;
+  padding: 15px;
+  gap: 20px;
+  background-color: black;
+}
+.ui-ux-design {
+  display: flex;
+  justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background-color: black;
+}
+/* portfolio start here */
+
+.my-portfolio {
+  background-color: #1e1e1e;
+  text-align: center;
+}
+.designs {
+  justify-content: space-between;
+  padding: 10px;
+  margin: 20px;
+}
+.web-butt {
+  background-color: yellow;
+}
+.black-b {
+  background-color: black;
+  padding: 15px;
+}
+.case-study {
+  display: flex;
+  justify-content: space-between;
+}
+.bally-pic {
+  height: 200px;
+  width: 300px;
+}
+.ux-case-info {
+  text-align: left;
+}
+.contact-me {
+  padding: 40px;
+  background-color: #1e1e1e;
+}
+
+.contact {
+  text-align: center;
+}
+.contact-box {
+  background-color: #34261b;
+  padding: 15px;
+}
+.name-in-box {
+  width: 280px;
+}
+.name-email {
+  display: flex;
+  justify-content: space-between;
+}
+.submit-now {
+  padding: 5px;
+  text-align: center;
+  background-color: #fd6f00;
+  height: 30px;
+  width: 120px;
+}
+.footer {
+  background-color: black;
+  text-align: center;
+  padding: 40px;
+}
+.foot-links{
+
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+.logo h2 {
+  color: #fd6f00;
+  font-size: xx-large;
+}
+.option-menu {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  padding: 10px;
+
+}
+.option-menu h3{
+  display: flex;
+}
+.foot {
+  text-align: center;
+  background-color: #1e1e1e;
+}
